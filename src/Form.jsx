@@ -6,7 +6,6 @@ export default class Form extends Component {
     };
 
     onChangeHandler = ({ target }) => {
-        console.log(target);
         this.setState({
             form: {
                 ...this.state.form,
